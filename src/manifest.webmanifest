@@ -1,0 +1,37 @@
+{
+  "name": "Presupuesto Textil",
+  "short_name": "PresTextil",
+  "description": "Sistema de presupuesto para fabricación de prendas de vestir",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a3a5c",
+  "theme_color": "#1a3a5c",
+  "orientation": "any",
+  "lang": "es-PE",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "assets/icons/icon-72.png",   "sizes": "72x72",   "type": "image/png" },
+    { "src": "assets/icons/icon-96.png",   "sizes": "96x96",   "type": "image/png" },
+    { "src": "assets/icons/icon-128.png",  "sizes": "128x128", "type": "image/png" },
+    { "src": "assets/icons/icon-144.png",  "sizes": "144x144", "type": "image/png" },
+    { "src": "assets/icons/icon-152.png",  "sizes": "152x152", "type": "image/png" },
+    { "src": "assets/icons/icon-192.png",  "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icons/icon-384.png",  "sizes": "384x384", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png",  "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Nuevo presupuesto",
+      "short_name": "Nuevo",
+      "url": "/budgets/create",
+      "icons": [{ "src": "assets/icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Mis presupuestos",
+      "short_name": "Presupuestos",
+      "url": "/budgets?mine=true",
+      "icons": [{ "src": "assets/icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}

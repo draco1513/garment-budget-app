@@ -1,0 +1,60 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Angular CLI
+.angular/
+dist/
+coverage/
+
+# Ionic / Capacitor
+www/
+build/
+android/
+ios/
+
+data/
+
+# IDEs
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Compiled files
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+
+# Angular service worker
+ngsw-worker.js
+ngsw.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Misc
+.idea/
+*.iml
