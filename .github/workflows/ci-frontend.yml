@@ -1,10 +1,9 @@
 name: CI — Garment Budget Frontend
 
 on:
-  push:
-    branches: [ main, develop ]
-  pull_request:
-    branches: [ main, develop ]
+  workflow_dispatch:
+    # Ejecuta este workflow manualmente desde la pestaña Actions cuando quieras.
+    # Evita que se dispare automáticamente en cada push o PR mientras no tengas el backend listo.
 
 jobs:
 
